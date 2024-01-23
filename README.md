@@ -17,5 +17,5 @@ The baseline file has then been modified by hand to add the following:
 ### Usage
 To fetch the license to your project do this:
 ```
-curl -s https://raw.githubusercontent.com/SUNET/sunet-licenses/main/text/default.template | sed "s/<year>/$(date +%Y)/" > LICENSE
+curl -s https://raw.githubusercontent.com/SUNET/sunet-licenses/main/default.template | sed "s/<year>/$(date +%Y)/" > LICENSE
 ```
